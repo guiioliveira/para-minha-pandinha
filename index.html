@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤️ 🐼 Para Minha Pandinha 🐼 ❤️</title>
+
+    <script src="assets/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/estilo.css">
+
+    <link rel="preload" as="image" href="imagens/fundo2.gif">
+    <link rel="preload" as="image" href="imagens/fundo3.gif">
+    <link rel="preload" as="image" href="imagens/fundo4.jpg">
+    <link rel="preload" as="image" href="imagens/fundo7.gif">
+    <link rel="preload" as="image" href="imagens/fundo9.gif">
+    <link rel="preload" as="audio" href="assets/musica.mp3">
+
+</head>
+
+<body class="fundo1">
+
+    <div class="container d-flex justify-content-center">
+
+        <div id="tela1" class="tela tela-centro visivel">
+            <h1 class="text-muted">Bem-vinda</h1>
+            <p>Você está pronta?</p>
+            <button class="mudaTela btn-azul">Começar</button>
+
+
+        </div>
+
+        <div id="tela2" class="tela" fundo="fundo1">
+            <p class="text-muted"><small>Antes de começar, preciso que você responda algumas perguntas:</small>
+                <br>
+                <strong>Em que lugar aconteceu nosso primeiro Beijo?</strong>
+            </p>
+
+            <button class="btn-azul btn-block" onclick="alert('Resposta errada!!!')">
+                Faculdade
+            </button>
+
+            <button class="mudaTela btn-azul btn-block" animacao="null" tempoAnimacao="5000">
+                Cinema
+            </button>
+
+            <button class="btn-azul btn-block" onclick="alert('Resposta errada!!!')">
+                Carro
+            </button>
+
+            <button class="btn-azul btn-block" onclick="alert('Resposta errada!!!')">
+                Praça
+            </button>
+
+        </div>
+
+
+        <div id="tela3" class="tela">
+            <p><strong>Qual filme estava passando?</strong></p>
+
+
+            <button class="btn-azul btn-block" onclick="alert('Resposta errada!!!')">
+                Crepusculo
+            </button>
+
+            <button class="btn-azul btn-block" onclick="alert('Resposta errada!!!')">
+                Os Vingadores
+            </button>
+
+            <button class="btn-azul btn-block" onclick="alert('Resposta errada!!!')">
+                Minha Mãe é uma Peça
+            </button>
+            <button class="mudaTela btn-block btn-azul">
+                Batman
+            </button>
+
+        </div>
+
+
+        <div id="tela4" class="tela">
+            <p><strong>Qual o nosso prato favorito?</strong></p>
+
+
+            <button class="btn-azul btn-block" onclick="alert('Resposta errada!!!')">
+                Canapé de Salmão
+            </button>
+
+            <button class="btn-azul btn-block" onclick="alert('Resposta errada!!!')">
+                Arroz, feijão e Batata Frita
+            </button>
+
+            <button class="mudaTela btn-block btn-azul">
+                Escondidinho de mignon com penne ao molho catupiry
+            </button>
+            <button class="btn-azul btn-block" onclick="alert('Resposta errada!!!')">
+                Strogonoff de Carne
+            </button>
+
+        </div>
+
+        <div id="tela5" class="tela">
+            <p>Para que tudo dê certo, você precisa estar ouvindo a música de fundo.</p>
+            <hr>
+            <p><small>Quando estiver ouvindo-a, clique no botão.</small></p>
+            <button class="mudaTela btn-azul">Continuar</button>
+        </div>
+
+        <div id="tela6" class="invisivel letra2 temporizado tela-centro" fundo="fundo2" style="color: #FFF;"
+            tempo="3000">
+            <div tempo="3000">
+                <p>Bom, então vamos lá...</p>
+            </div>
+            <div tempo="3000">
+                <p>eu queria que você soubesse de algumas coisas.</p>
+            </div>
+            <div tempo="3000" final="true">
+                <p>Fiz este pequeno presente para você.</p>
+            </div>
+        </div>
+
+
+        <div id="tela7" class="invisivel temporizado letra2 tela-centro" fundo="fundo3" style="color: #FFF;"
+            tempo="3000">
+            <div tempo="6000">
+                <p>Quem poderia imaginar que depois 9 anos iriamos finalmente nos reencotrar?</p>
+            </div>
+
+            <div tempo="6000">
+                <p>Pois bem... E não é que nos reencontramos?!? </p>
+
+            </div>
+            <div tempo="4000">
+                <p>Eu sempre sonhei com nosso reencontro...</p>
+            </div>
+            <div tempo="4000">
+                <p>Reencontrar você foi o maior presente que a vida me deu...</p>
+            </div>
+            <div tempo="4000" final="true">
+                <p>Tenho milhares de motivos para te amar...</p>
+            </div>
+        </div>
+
+
+        <div id="tela8" class="tela-centro tela" fundo="fundo1" tempo="6000">
+
+            <p>Eu passaria a vida toda falando dos motivos que me fazem te amar tanto. Então vou citar apenas alguns!
+            </p>
+
+            <button class="mudaTela btn-rosa">Continuar</button>
+
+        </div>
+
+        <div id="tela9" class="tela">
+
+            <div class="text-start">
+                <div class="text-center">
+                    <h2 class="letra-vermelha">Motivos</h2>
+
+                </div>
+                <hr>
+                <p><strong class="letra-vermelha">Seu jeitinho de falar</strong>, sou completamente apaixonado pelo
+                    jeitinho de falar, sua voz com um leve sotaque mineirinho são a combinação perfeita.</p>
+                <p><strong class="letra-vermelha">Sorriso</strong>, como não amar esse sorriso lindo que contagia todos
+                    a sua volta</p>
+                <p><strong class="letra-vermelha">Seus olhos</strong>, eu me perco em seu olhar, é como se eu entrasse
+                    em um universo paralelo e lá só existisse nós dois.</p>
+                <p><strong class="letra-vermelha">Seu abraço</strong>, seu abraço me faz sentir seguro e muito amado e
+                    se eu pudesse nunca mais sairia dele.</p>
+                <p><strong class="letra-vermelha">Seu cabelo</strong>, seu cabelo é lindo e eu amo toca-lo</p>
+                <p><strong class="letra-vermelha">Sua bondade </strong>, nunca conheci alguém com um coração tão bom
+                    quanto o seu, uma pessoa que faz de tudo para que todos a sua volta se sintam bem.</p>
+                <p><strong class="letra-vermelha">Suas mãos</strong>, pode não parecer, mas sou apaixonado pelas suas
+                    mãos, até porque foi por elas que eu senti a primeira vez o que era amar alguém.</p>
+                <p><strong class="letra-vermelha">Detalhes</strong>, eu amo cada detalhe seu, cada pedacinho, amo suas
+                    orelhinhas pequenas, suas pintinhas na bochecha, seus pézinhos e sua verruguinha próxima do cóccix
+                </p>
+
+            </div>
+
+            <button class="mudaTela btn-rosa mt-3">Continuar</button>
+
+        </div>
+
+        <div id="tela10" class="tela">
+
+            <div class="text-start">
+                <div class="text-center">
+                    <h2 class="letra-vermelha">Momentos marcantes</h2>
+                    <img src="imagens/tela9-1.png" alt="">
+                    <p class="letra2" style="font-size: 0.8em;">
+                        <strong>Essas são fotos de alguns dos nosso momentos marcantes.
+                        </strong>
+                    </p>
+                </div>
+                <hr>
+                <p><span class="letra2 letra-vermelha" style="font-size: 1em;">Tivemos muitos momentos marcantes, mas
+                        vou falar apenas de 3 deles.</span><br>
+                </p>
+                <ul>
+                    <li><strong class="letra-vermelha">O primeiro momento</strong> foi no carro da Presidenta. Estávamos
+                        voltando do boliche,
+                        Eu sentando no banco ao lado da motorista e você sentada no banco de trás, você começou a
+                        apertar minha barriga e fazer
+                        cocegas e eu tentei segurar sua mão, e no mesmo momento você arrumou nossas mãos e elas se
+                        encaixaram e naquele momento eu
+                        senti algo que nunca havia sentido antes, parecia coisa de filme, naquele momento foi como se o
+                        universo tivesse parado, eu
+                        conseguia ouvir meu coração batendo e ao mesmo tempo um frio tomou conta da minha barriga.
+                        Naquele dia eu fui embora para casa
+                        com a certeza de que eu estava apaixonado por você.
+
+                    </li>
+
+                    <li><strong class="letra-vermelha">O segundo momento</strong>, foi no cinema. Lembra que você me
+                        convidou
+                        pra ir ao cinema e eu não queria ir pois estava sem dinheiro e você disse "Eu pago", eu fiquei
+                        meio relutando,
+                        mas acabei aceitando. Então fui para o shopping antigo e fiquei esperando você chegar, o mais
+                        interessante é que
+                        a gente foi ao cinema sem saber que filme assistiríamos, pois na verdade o cinema era só uma
+                        desculpa pra gente passar
+                        um momento junto. Então você foi e comprou nossas entradas, entramos na sala e sentamos lá no
+                        fundo, começamos a conversar
+                        e lembro que pedi pra segurar sua mão e logo depois pedi pra te beijar e você respondeu <strong
+                            class="text-muted">"Não posso, melhor não!"</strong>
+                        mas quando nos demos conta já estávamos nos beijando. Depois de quase 15 minutos que fomos
+                        perceber que já tinha começado o filme e que o
+                        filme que estava passando era o BATMAN...kkkkkk. Lembro que naquela noite toda vez que eu
+                        fechava os olhos tentando dormir eu só consegui ver a gente
+                        se beijando. E lembro que você me mandou mensagem falando que nunca deve se pedir pra beijar
+                        alguém, que o beijo precisa acontecer e não ser pedido.
+                        Naquela noite eu me apaixonei mais uma vez por você!
+                    </li>
+
+                    <li><strong class="letra-vermelha">O terceiro momento</strong> foi quando você me levou pra jantar
+                        no Oliva Bistrô. Já fazia praticamente um mês que a gente estava
+                        saindo e ficando e a gente sempre falava sobre surpresas de pedido de namoro e em um belo dia
+                        você me convidou pra jantar e tinha comentado de dois lugares, Cachaçaria Água Doce
+                        e Oliva Bistrô, você me disse pra ir bem arrumado, mas não sabia qual dos dois lugares que a
+                        gente iria. Na minha cabeça eu só estava preocupado em ir bem vestido, nem imaginava o que
+                        estava por vir. Então naquela noite do dia 12 de novembro de 2021 eu passei na sua casa para
+                        busca-la e você começou a me guiar pelo caminho e no último momento que eu fui saber que iriamos
+                        no Oliva Bistrô, e lá no restaurante você começou a falar que tinha um prato que você tinha
+                        certeza que eu iria amar e você estava certa eu amei aquele prato, não é à toa que ele é nosso
+                        prato
+                        favorito né. E no fim da noite na hora de escolher a sobremesa, você me mostra o cardápio e eu
+                        escolho o petit gateau (sem saber que era essa sobremesa que eu deveria escolher mesmo). Eu
+                        percebi
+                        que depois que pedimos a sobremesa você ficou meio inquieta, mas não desconfiei de nada e quando
+                        menos espero chega o garçom com a sobremesa e o pedido de namoro, naquele momento a minha
+                        felicidade
+                        foi tão grande que eu não conseguia falar, eu tentava falar e minha voz não saía e eu estava
+                        louco pra responder que sim e só conseguia balançar a cabeça dizendo que sim. Ah, como aquele
+                        momento foi
+                        mágico pra mim, me arrisco a dizer que aquele dia foi o dia mais feliz da minha vida, pois foi
+                        tudo que eu sempre sonhei...
+
+                    </li>
+
+                </ul>
+
+                <hr>
+
+                <div class="text-center">
+                    <p>Esses são apenas 3 dos nossos muitos momentos marcantes.</p>
+                    <p><strong class="text-muted">3 é muito pouco perto da infinidade de momentos que eu ainda quero
+                            viver ao seu lado.</strong></p>
+                </div>
+
+
+
+            </div>
+
+            <button class="mudaTela btn-rosa mt-3">Continuar</button>
+
+        </div>
+
+        <div id="tela11" class="tela">
+
+            <div class="text-left">
+                <div class="text-center">
+                    <h2 class="letra-vermelha">O que você mudou em mim</h2>
+                    <img src="imagens/tela10.png" alt="">
+                </div>
+                <hr>
+                <p class="letra-vermelha"><strong>Pode parecer que não, mas você me ajudou a mudar tanta coisa em
+                        mim</strong></p>
+                <p> <strong class="letra-vermelha">Antes de você</strong> entrar na minha vida eu era apenas um rapaz
+                    que vivia no próprio mundo e que morria de medo de desbravar novos mundos</p>
+                <p> Você chegou e primeiro me mostrou seu mundo, mundo esse que você fez questão de deixar confortável
+                    para que eu pudesse entrar sem medo.</p>
+
+                <hr>
+                <p> <strong class="letra-vermelha">Antes de você</strong> eu sempre duvidei da minha capacidade</p>
+                <p>E quando você chegou, você simplesmente fazia questão de falar e mostrar o quão incrível eu era. Eu
+                    passei a me valorizar mais e tudo isso graças a você</p>
+
+
+                <hr>
+                <p><strong class="letra-vermelha">Antes de você</strong> eu havia perdido meus sonhos e a vontade de
+                    sonhar</p>
+                <p>E você me fez sonhar novamente, me ajudou acreditar que sonhos podem sim se tornar realidade</p>
+                <hr>
+                <p><strong class="letra-vermelha">Antes de você</strong> eu não sabia muito bem o que era um
+                    relacionamento</p>
+                <p>E você me mostrou que relacionamento vai muito além de apenas se ver uma vez na semana, ou mandar
+                    mensagem todos os dias,
+                    que o relacionamento não é uma operação básica da matemática (adição, subtração, multiplicação ou
+                    divisão), o relacionamento
+                    é uma equação complexa que as vezes tem adição, subtração, multiplicação e divisão para que os dois
+                    lados fiquem equilibrados
+                </p>
+
+                <hr>
+                <p><strong class="letra-vermelha">Antes de você</strong> eu estava levando minha vida na comodidade do
+                    meu cargo como funcionário público e sem perspectiva de futuro</p>
+                <p>E você me mostrou que é necessário sair da zona de conforto, que estabilidade nem sempre é bom, me
+                    mostrou que novos desafios são necessários para novos aprendizados.
+                    E aqui estou eu saindo da prefeitura pela segunda vez para encarar um novo desafio e isso só está
+                    sendo possível porque você entrou na minha vida
+                </p>
+
+
+                <p>Com você ao meu lado eu sinto que posso conquistar o mundo. Você se tornou meu porto seguro, a pessoa
+                    pra quem quero sempre contar sobre meu dia!</p>
+                <h3 class="letra-vermelha mt-5 mb-5">Você me faz bem. Me faz muito bem!</h3>
+
+            </div>
+
+            <button class="mudaTela btn-rosa">Continuar</button>
+
+        </div>
+
+        <div id="tela12" class="tela">
+            <h2 class="letra-vermelha">Essa foi nossa primeira foto depois do Reencontro</h2>
+            <p>Foi no dia 16 de Outubro de 2021.</p>
+
+            <img src="imagens/tela12.png" alt="">
+
+            <button class="mudaTela btn-rosa mt-3">Continuar</button>
+        </div>
+
+
+        <div id="tela13" class="invisivel temporizado letra2 tela-centro" fundo="fundo5" style="color: #FFF;"
+            tempo="2000">
+            <div tempo="3000">
+                <p>E só de pensar...</p>
+            </div>
+            <div tempo="3000">
+                <p>onde tudo começou...</p>
+            </div>
+            <div tempo="4000">
+                <img src="imagens/tela11.png" class="custom" width="700" alt="">
+            </div>
+            <div tempo="3000">
+                <p>E pensar...</p>
+            </div>
+            <div tempo="4000">
+                <p>em tudo que ainda podemos viver juntos...</p>
+            </div>
+            <div tempo="4000">
+                <p>Chega a me arrepiar.</p>
+            </div>
+            <div tempo="5000" final="true">
+                <p>Você é e sempre será o grande amor da minha vida ❤️</p>
+            </div>
+        </div>
+
+        <div id="tela14" class="invisivel temporizado letra2 tela-centro" fundo="fundo11" style="color: #999;"
+            tempo="2500">
+            <div tempo="2000">
+                <p>Bom...</p>
+            </div>
+            <div tempo="3500">
+                <p>Chega de enrolar...</p>
+            </div>
+            <div tempo="3500">
+                <p>Eu preciso te fazer uma pergunta.</p>
+            </div>
+            <div tempo="4000" final="true">
+                <p>Algo que estou muito seguro em perguntar...</p>
+            </div>
+        </div>
+
+        <div id="tela15" class="tela tela-centro">
+            <h2 class="text-muted">Você está pronta?</h2>
+            <p>Quando estiver, é só apertar o botão.</p>
+
+            <button class="mudaTela btn-verde">Estou pronta</button>
+        </div>
+
+        <div id="tela16" class="invisivel temporizado letra2 tela-centro" fundo="" style="color: #999;" tempo="1500">
+            <div tempo="2000">
+                <p>Então...</p>
+            </div>
+            <div tempo="8000" final="true">
+                <p>agora, olhe nos meus olhos...</p>
+            </div>
+        </div>
+
+        <div id="tela17" class="tela tela-centro" fundo="">
+            <h2 class="text-muted mb-5 mt-2">Qual foi a resposta?</h2>
+            <button class="mudaTela btn-block btn-azul">SIM</button>
+            <br>
+            <button class="btn-block btn-vermelho" onclick="alert('Kkkk mentira, eu sei que foi SIM.');">NÃO</button>
+        </div>
+
+        <div id="tela18" class="tela">
+            <h2 class="mb-5" style="color: #CCC">Nesse caso, precisamos atualizar nossa lista de momentos marcante</h2>
+            <h3> 17 de Abril de 2023</h3>
+            <section class='text-center mt-5 mb-5'>
+                <p><strong>O dia em que ela disse<br><span class='letra2 letra-vermelha'>SIM</span></strong></p>
+            </section>
+            <button class="mudaTela btn-verde">Continuar</button>
+
+        </div>
+
+
+        <div id="tela19" class="invisivel temporizado letra2 tela-centro" fundo="fundo6" style="color: #FFF;"
+            tempo="1500">
+            <div tempo="5000000000" class="text-center">
+                <p class="mb-0">Obrigado por estar sempre comigo e por me fazer tão feliz. TE AMO ONTEM, HOJE, AMANHÃ E
+                    SEMPRE!❤️</p>
+                <p style="font-size:0.8em;">Quero viver pra sempre ao seu lado</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <!--<script src="assets/js/bootstrap.min.js"></script>-->
+
+    <script src="assets/script.js"></script>
+    <!--<script src="assets/all.min.js"></script>-->
+
+</body>
+
+</html>
